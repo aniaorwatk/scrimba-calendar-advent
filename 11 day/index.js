@@ -24,6 +24,7 @@ Example output: Welcome to earth!
 */  
 
 function reverseString(arr){
+    arr = arr.split("").reverse().join("")
     return arr;
 }
 
@@ -36,6 +37,7 @@ reverse the strings manually.
 */ 
 
 function reverseStringsInArray(arr){
+    arr = arr.map(text => {return reverseString(text)})
     return arr;
 }
 
