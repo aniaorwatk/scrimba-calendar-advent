@@ -26,7 +26,7 @@ How can you reuse the function you just wrote?
 */
 
 function toTitleCase(str) {
-  let allStr =str.split(" ").map(word => { return capitalizeWord(word) }).join(" ")
+  let allStr = str.split(" ").map(word => { return capitalizeWord(word) }).join(" ")
   return allStr
 }
 
