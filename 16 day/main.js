@@ -13,7 +13,6 @@ function insertDashes(arr) {
             else {
                 result += str[i]
             }
-
         }
     }
     return result
